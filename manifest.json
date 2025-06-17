@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Pxy-Toggler",
+  "version": "1.0",
+  "description": "Easily enable, disable, and configure a browser-wide HTTP pxy",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "icons": {
+    "16": "img/icon-16.png",
+    "48": "img/icon-48.png",
+    "128": "img/icon-128.png"
+  }
+}
+
